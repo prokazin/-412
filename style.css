@@ -16,8 +16,6 @@ body {
 #moskvich:active {
   transform: scale(1.05);
 }
-.memes img, .upgrades img {
-  width: 150px;
-  margin: 10px;
-  border-radius: 8px;
+#shop {
+  margin-top: 20px;
 }

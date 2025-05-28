@@ -11,11 +11,18 @@
 <body>
   <div class="game-container">
     <h1>🚘 Москвич Кликер</h1>
-    <img id="moskvich" src="moskvich.png.jpeg" alt="Москвич" />
-    <p id="clicks">Кликов: 0</p>
+    <img id="moskvich" src="moskvich.png" alt="Москвич" />
+    <p id="speed">Скорость: 0 км/ч</p>
     <p id="joke"></p>
-    <div class="memes" id="memes"></div>
+    <div id="shop">
+      <h2>🛠 Магазин</h2>
+      <button onclick="buy('spoiler')">Спойлер (+1 км/ч за клик) - 20 км/ч</button><br>
+      <button onclick="buy('tape')">Изолента (замедляет спад) - 50 км/ч</button><br>
+      <button onclick="buy('chrome')">Хром (+3 км/ч/сек) - 100 км/ч</button><br><br>
+      <button onclick="resetGame()">Сбросить</button>
+    </div>
   </div>
+  <audio id="click-sound" src="click.mp3"></audio>
   <script src="script.js"></script>
 </body>
 </html>
