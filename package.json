@@ -1,0 +1,19 @@
+
+{
+  "name": "moskvich-clicker",
+  "version": "1.0.0",
+  "description": "Советский кликер про Москвич с шутками, апгрейдами и мемами",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "clicker",
+    "moskvich",
+    "советский автопром",
+    "игра",
+    "vk mini app"
+  ],
+  "author": "moskvichlive",
+  "license": "MIT"
+}

@@ -1,0 +1,23 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0efe7;
+  color: #333;
+}
+.game-container {
+  margin-top: 40px;
+}
+#moskvich {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+#moskvich:active {
+  transform: scale(1.05);
+}
+.memes img {
+  width: 150px;
+  margin: 10px;
+  border-radius: 8px;
+}
